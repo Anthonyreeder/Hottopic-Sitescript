@@ -36,26 +36,4 @@ func main() {
 	submitShippingage := SubmitShipping(client, dwcont, secureKey)
 	fmt.Println(submitShippingage)
 
-	//Go to checkout as guest using dwCont
-
-	//res := strings.Contains(string(resp), "")
-
-	//After adding to cart we need to 'checkout as guest'
-	//Go to www.hottopic.com/cart.
-	//find ""
-
-	//then we submit shipping info to same cart address with this dwordcont
-	//not sure yet if they're the same (i assme they are)
-	//dwcont: C251111390
-
-	//dwcont could be in the html, seems to change from each request.
-
-	//	Checkout As a Guest
-
-	//HTML := Checkout(client)
-	//doc, err := goquery.NewDocumentFromReader(HTML.Body)
-	//if err != nil {
-	//	log.Fatal(err)
-	//}
-
 }
